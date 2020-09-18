@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="欢迎，这里是我自己的藏事之处">
+  <meta name="author" content="BreakIce">
+  <meta name="keywords" content="">
+  <title>Tabliss插件 - BreakIce的小柜子</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="BreakIce的小柜子" type="application/atom+xml">
+</head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Iced的储藏室</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/default.webp') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-02-23 09:49">
+      2020年2月23日 上午
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      693 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      7
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <h1 id="Tabliss"><a href="#Tabliss" class="headerlink" title="Tabliss"></a>Tabliss</h1><h2 id="前文"><a href="#前文" class="headerlink" title="前文"></a>前文</h2><p>火狐拥有强大的插件功能以及不计其数的插件，他们的强大让我们叹为观止</p>
+<p>前一阵子发现的一个用于改善新标签页的一个插件</p>
+<a id="more"></a>
+
+<p><del>在这里特意感谢犬里，意外之中让我发现了这个精美简单的新 Tab 插件</del></p>
+<h2 id="开搞"><a href="#开搞" class="headerlink" title="开搞"></a>开搞</h2><p>按照国际惯例，我们需要安装 Tabliss 插件到浏览器中。</p>
+<p>然后我们打开一个新标签页，这个时候就是默认的纯洁的的 Tabliss 了</p>
+<h2 id="基本的修改"><a href="#基本的修改" class="headerlink" title="基本的修改"></a>基本的修改</h2><p>我们望向左上角，有一个<em>齿轮</em>标志,点开它。</p>
+<p>将<em>Background<em>项改为</em>Upload Images</em></p>
+<p>就会变成这样</p>
+<p><img src="tabliss1.webp" srcset="/img/loading.gif" alt=""></p>
+<p>上传一些你喜欢的图形给 Tabliss 吧，它支持多图片随机轮换，每次开启都会不一样</p>
+<p>点开<em>Greeting</em>组件，在 name 项中输入你希望显示的名字</p>
+<p>我们发现一个问题，字体和背景图片混在一起的时候很难看清字体，所以我们需要更加高级的修改</p>
+<h2 id="高级修改"><a href="#高级修改" class="headerlink" title="高级修改"></a>高级修改</h2><h3 id="背景模糊"><a href="#背景模糊" class="headerlink" title="背景模糊"></a>背景模糊</h3><p>再次点开齿轮标志，其中有 CSS Custom 项。</p>
+<p>当然也可能没有，我们添加组件即可</p>
+<p><img src="tabliss2.webp" srcset="/img/loading.gif" alt=""></p>
+<p>我们向里面写入这些</p>
+<pre><code class="hljs css"><span class="hljs-selector-class">.Image</span> &#123;
+  <span class="hljs-attribute">background-position</span>: <span class="hljs-number">50%</span> <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">background-size</span>: cover;
+  <span class="hljs-attribute">background-repeat</span>: no-repeat;
+  <span class="hljs-attribute">filter</span>: <span class="hljs-built_in">blur</span>(<span class="hljs-number">5px</span>);
+&#125;</code></pre>
+
+<p>它的功能是让背景模糊化，其中<em>filter: blur(5px);</em>中括号内的内容是模糊程度，可以看情况进行修改</p>
+<p>输入完毕后我们会发现它已经是模糊的背景了，长这样<br><img src="tabliss3.webp" srcset="/img/loading.gif" alt=""></p>
+<h3 id="搜索框"><a href="#搜索框" class="headerlink" title="搜索框"></a>搜索框</h3><p>我认为一个新标签页有一个输入框比较好。于是我们点开<em>Add new widget</em>，选中<em>Search Box</em>来添加搜索框</p>
+<p>随后我们点开<em>Search Box</em>，里面可以切换搜索引擎，换成 <em>Bing</em>(自选)</p>
+<p>好空旷的搜索框，在<em>Placeholder</em>输入一些文字吧。我输入的是<em>输入以在 Bing 中搜索内容</em>。</p>
+<p>于是变成了这样<br><img src="tabliss4.webp" srcset="/img/loading.gif" alt=""></p>
+<p>现在 Tabliss 长成了这样<br><img src="tabliss5.webp" srcset="/img/loading.gif" alt=""></p>
+<h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>不如让 Tabliss 能显示天气吧？</p>
+<p>在<em>Add new widget</em>中选中<em>Weather</em>，点击<em>Enter coordinates</em>切换到使用经纬，因为我们可以让浏览器自动定位我们的位置，减懒了。</p>
+<p>有一个像是纸飞机的标志，点击它让它定位。OK 了后，看看右上角吧</p>
+<p>现在 Tabliss 长这样</p>
+<p><img src="tabliss6.webp" srcset="/img/loading.gif" alt=""></p>
+<h3 id="快捷链接"><a href="#快捷链接" class="headerlink" title="快捷链接"></a>快捷链接</h3><p>让它能有快捷链接如何？这样我们的操作会更加方便，因为可以添加不少的常用链接进去</p>
+<p>在<em>Add new widget<em>中选中</em>Quick Links</em></p>
+<p>其中<em>Number of columns</em>的意思是一行同时显示几个，我填的 5</p>
+<p>点开<em>Add link</em>，输入想要添加的链接，名字，和选一个图标。</p>
+<p>现在它已经能满足我的绝大部分需求了，它现在是这样的</p>
+<p><img src="tabliss7.webp" srcset="/img/loading.gif" alt=""></p>
+
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Firefox/">Firefox</a>
+                    
+                      <a class="hover-with-bg" href="/categories/Firefox/%E6%8F%92%E4%BB%B6/">插件</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%8A%80%E6%9C%AF/">技术</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%8D%A3%E9%BC%93/">捣鼓</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/09/16/Golang-error%E5%8C%85%E4%B8%ADwrap%E7%9A%84%E5%88%9D%E6%8E%A2/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Golang error包中wrap的初探</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2020/02/22/%E5%AF%B9%E4%B8%AD%E5%B7%9E%E9%9F%B5%E7%9A%84%E8%BD%BB%E5%BE%AE%E6%8D%A3%E9%BC%93/">
+                        <span class="hidden-mobile">对中州韵的轻微捣鼓</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Tabliss插件&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
