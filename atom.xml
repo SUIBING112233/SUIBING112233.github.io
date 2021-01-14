@@ -6,7 +6,7 @@
 	  <link href="/atom.xml" rel="self"/>
 	  
 	  <link href="http://blog.icedtech.xyz/"/>
-	  <updated>2020-09-18T13:04:14.660Z</updated>
+	  <updated>2020-09-14T13:54:19.952Z</updated>
 	  <id>http://blog.icedtech.xyz/</id>
 	  
 	  <author>
@@ -15,30 +15,6 @@
 	  </author>
 	  
 	  <generator uri="https://hexo.io/">Hexo</generator>
-	  
-	  <entry>
-	    <title>Golang error包中wrap的初探</title>
-	    <link href="http://blog.icedtech.xyz/2020/09/16/Golang-error%E5%8C%85%E4%B8%ADwrap%E7%9A%84%E5%88%9D%E6%8E%A2/"/>
-	    <id>http://blog.icedtech.xyz/2020/09/16/Golang-error%E5%8C%85%E4%B8%ADwrap%E7%9A%84%E5%88%9D%E6%8E%A2/</id>
-	    <published>2020-09-16T10:32:44.000Z</published>
-	    <updated>2020-09-18T13:04:14.660Z</updated>
-	    
-	    
-	    <summary type="html">&lt;h1 id=&quot;前文&quot;&gt;&lt;a href=&quot;#前文&quot; class=&quot;headerlink&quot; title=&quot;前文&quot;&gt;&lt;/a&gt;前文&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;在很久很久以前,&lt;/p&gt;
-&lt;p&gt;苦恼的 Gopher 们在夜黑风高的夜晚写着代码,&lt;/p&gt;
-&lt;p&gt;他们为何写到如此之晚？&lt;/p&gt;
-&lt;p&gt;让我们走进科学……&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-	    
-	    
-	    
-	    
-	    <category term="代码" scheme="http://blog.icedtech.xyz/tags/%E4%BB%A3%E7%A0%81/"/>
-	    
-	    <category term="探究" scheme="http://blog.icedtech.xyz/tags/%E6%8E%A2%E7%A9%B6/"/>
-	    
-	  </entry>
 	  
 	  <entry>
 	    <title>Tabliss插件</title>
