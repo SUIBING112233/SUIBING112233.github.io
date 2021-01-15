@@ -3,5 +3,80 @@
   
   
   
+  <entry>
+    <title>Tabliss插件</title>
+    <link href="/2020/02/23/Tabliss%E6%8F%92%E4%BB%B6/"/>
+    <url>/2020/02/23/Tabliss%E6%8F%92%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Tabliss"><a href="#Tabliss" class="headerlink" title="Tabliss"></a>Tabliss</h1><h2 id="前文"><a href="#前文" class="headerlink" title="前文"></a>前文</h2><p>火狐拥有强大的插件功能以及不计其数的插件，他们的强大让我们叹为观止</p><p>前一阵子发现的一个用于改善新标签页的一个插件</p><a id="more"></a><p><del>在这里特意感谢犬里，意外之中让我发现了这个精美简单的新 Tab 插件</del></p><h2 id="开搞"><a href="#开搞" class="headerlink" title="开搞"></a>开搞</h2><p>按照国际惯例，我们需要安装 Tabliss 插件到浏览器中。</p><p>然后我们打开一个新标签页，这个时候就是默认的纯洁的的 Tabliss 了</p><h2 id="基本的修改"><a href="#基本的修改" class="headerlink" title="基本的修改"></a>基本的修改</h2><p>我们望向左上角，有一个<em>齿轮</em>标志,点开它。</p><p>将<em>Background</em>项改为<em>Upload Images</em></p><p>就会变成这样</p><p><img src="tabliss1.webp"></p><p>上传一些你喜欢的图形给 Tabliss 吧，它支持多图片随机轮换，每次开启都会不一样</p><p>点开<em>Greeting</em>组件，在 name 项中输入你希望显示的名字</p><p>我们发现一个问题，字体和背景图片混在一起的时候很难看清字体，所以我们需要更加高级的修改</p><h2 id="高级修改"><a href="#高级修改" class="headerlink" title="高级修改"></a>高级修改</h2><h3 id="背景模糊"><a href="#背景模糊" class="headerlink" title="背景模糊"></a>背景模糊</h3><p>再次点开齿轮标志，其中有 CSS Custom 项。</p><p>当然也可能没有，我们添加组件即可</p><p><img src="tabliss2.webp"></p><p>我们向里面写入这些</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.Image</span> &#123;<br>  <span class="hljs-attribute">background-position</span>: <span class="hljs-number">50%</span> <span class="hljs-number">50%</span>;<br>  <span class="hljs-attribute">background-size</span>: cover;<br>  <span class="hljs-attribute">background-repeat</span>: no-repeat;<br>  <span class="hljs-attribute">filter</span>: <span class="hljs-built_in">blur</span>(<span class="hljs-number">5px</span>);<br>&#125;<br></code></pre></td></tr></table></figure><p>它的功能是让背景模糊化，其中*filter: blur(5px);*中括号内的内容是模糊程度，可以看情况进行修改</p><p>输入完毕后我们会发现它已经是模糊的背景了，长这样<br><img src="tabliss3.webp"></p><h3 id="搜索框"><a href="#搜索框" class="headerlink" title="搜索框"></a>搜索框</h3><p>我认为一个新标签页有一个输入框比较好。于是我们点开<em>Add new widget</em>，选中<em>Search Box</em>来添加搜索框</p><p>随后我们点开<em>Search Box</em>，里面可以切换搜索引擎，换成 <em>Bing</em>(自选)</p><p>好空旷的搜索框，在<em>Placeholder</em>输入一些文字吧。我输入的是<em>输入以在 Bing 中搜索内容</em>。</p><p>于是变成了这样<br><img src="tabliss4.webp"></p><p>现在 Tabliss 长成了这样<br><img src="tabliss5.webp"></p><h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>不如让 Tabliss 能显示天气吧？</p><p>在<em>Add new widget</em>中选中<em>Weather</em>，点击<em>Enter coordinates</em>切换到使用经纬，因为我们可以让浏览器自动定位我们的位置，减懒了。</p><p>有一个像是纸飞机的标志，点击它让它定位。OK 了后，看看右上角吧</p><p>现在 Tabliss 长这样</p><p><img src="tabliss6.webp"></p><h3 id="快捷链接"><a href="#快捷链接" class="headerlink" title="快捷链接"></a>快捷链接</h3><p>让它能有快捷链接如何？这样我们的操作会更加方便，因为可以添加不少的常用链接进去</p><p>在<em>Add new widget</em>中选中<em>Quick Links</em></p><p>其中<em>Number of columns</em>的意思是一行同时显示几个，我填的 5</p><p>点开<em>Add link</em>，输入想要添加的链接，名字，和选一个图标。</p><p>现在它已经能满足我的绝大部分需求了，它现在是这样的</p><p><img src="tabliss7.webp"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Firefox</category>
+      
+      <category>插件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>技术</tag>
+      
+      <tag>捣鼓</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>对中州韵的轻微捣鼓</title>
+    <link href="/2020/02/22/%E5%AF%B9%E4%B8%AD%E5%B7%9E%E9%9F%B5%E7%9A%84%E8%BD%BB%E5%BE%AE%E6%8D%A3%E9%BC%93/"/>
+    <url>/2020/02/22/%E5%AF%B9%E4%B8%AD%E5%B7%9E%E9%9F%B5%E7%9A%84%E8%BD%BB%E5%BE%AE%E6%8D%A3%E9%BC%93/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Rime，中州韵"><a href="#Rime，中州韵" class="headerlink" title="Rime，中州韵"></a>Rime，中州韵</h1><p>Rime，一个开源的输入法。<br>它的作者在<a href="https://rime.im/">官网</a>上写道，</p><blockquote><p>Rime 输入方案贵在原创。<br>不止于拼音、注音、仓颉、速成、五笔、双拼、宫保拼音、粤拼、吴语、中古汉语拼音、五笔画、Emoji、国际音标……</p></blockquote><p>自己动手，丰衣足食。当然，懒还是可以偷的(笑)</p><a id="more"></a><hr><p>在他的官方网站上我们可以看到一些可用的版本<br>他们分别是：鼠须管，小狼毫，同文，以及 Linux 版本的一些分支输入法</p><blockquote><p>鼠须管–&gt;macOS<br>小狼毫–&gt;Windows<br>同文–&gt;Android</p></blockquote><p>他们的配置文件位置不一样，但是配置步骤相同。因为同文输入法和我们桌面平台有比较大的出入所以我们暂且不提它。<br>在他们的托盘图标里面就能打开他们的配置文件所在地</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>我们需要一个文本编辑器，并且安装好 Rime，还需要下载 Rime-Pro 进行偷懒，因为我们没办法提取到那么多的词库，不如就用现成的</p><p>Rime 看自己平台<a href="https://rime.im/download/">下载</a></p><p>Rime-pro…emmm 好像只有<a href="https://pan.baidu.com/s/1jI1a8eE">网盘</a></p><h2 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h2><p>首先我们打开 Rime 的配置文件夹，把我们准备好的 Rime-Pro 给解压进去</p><p>重新部署一下 Rime，首次重新部署 Rime 需要耗费比较长的时间。完成后，不切换大小写的情况下输入一些我们常用的短语英文短语，比如:</p><p>iPad，iOS，macOS，Linux，Android，USB。</p><p>输入他们的时候都不需要专门调整大小写了，输入他们就能显示正确的结果</p><p>还有一些 emoji:</p><ul><li>huojian=&gt;🚀</li><li>chuzuche=&gt;🚕</li><li>siyecao=&gt;🍀</li></ul><p>以及一些符号:</p><ul><li>cmd=&gt;⌘</li><li>duigou=&gt;✓</li><li>opt=&gt;⌥</li><li>shift=&gt;⇧</li></ul><p>这个时候我们发现了一些问题：他的颜色，呃。</p><p>那么，冒险开始罢</p><h2 id="稍作修改"><a href="#稍作修改" class="headerlink" title="稍作修改"></a>稍作修改</h2><p>另外我们需要注意，</p><p><em>在 Windows 下 Rime 叫做小狼毫，Weasel，配置文件应该是 weasel.custom.yaml</em></p><p><em>在 macOS 下 Rime 叫做鼠须管，Squirrel，配置文件应该是 squirrel.custom.yaml</em></p><p><em>在 Linux 下 Rime 没有特殊的名称，需要单独查阅。</em></p><p>也就是说假设我们是 Windows，我们需要<em>对应的替换下文的 squirrel.custom.yaml 为 weasel.custom.yaml</em></p><p>在 default.custom.yaml 中我们可以修改输入法操作相关的熟悉，比如快捷键什么的</p><p>在 squirrel.custom.yaml 中我们可以修改输入法的外观什么的。(这里我用的是 macOS)</p><p>我们主要修改外观。Rime-Pro 以及 Rime 已经为我们提供了不少的主题了，所以我们设置一下即可。</p><p>我在这里选择 lost_temple，是一个我觉得很优秀的暗色主题。</p><p>如此一来我们的 squirrel.custom.yaml 中修改主题相关的就变成了这样</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs YAML"><span class="hljs-comment"># 输入法面板配色方案</span><br><span class="hljs-attr">&quot;style/color_scheme&quot;:</span> <span class="hljs-string">lost_temple</span><br><span class="hljs-attr">&quot;style/font_point&quot;:</span> <span class="hljs-number">18</span><br><span class="hljs-attr">&quot;style/horizontal&quot;:</span> <span class="hljs-literal">true</span><br><span class="hljs-attr">&quot;style/corner_radius&quot;:</span> <span class="hljs-number">3</span><br><span class="hljs-attr">&quot;style/border_height&quot;:</span> <span class="hljs-number">4</span><br><span class="hljs-attr">&quot;style/weight_height&quot;:</span> <span class="hljs-number">4</span><br><span class="hljs-attr">&quot;style/label_font_point&quot;:</span> <span class="hljs-number">17</span><br><span class="hljs-attr">&quot;style/font_face&quot;:</span> <span class="hljs-string">&quot;WenQuanYiMicroHeiLight&quot;</span><br></code></pre></td></tr></table></figure><p>由于 Rime 自带多种输入法，而有时候我们用不到那么多的输入法，于是乎就需要修改 default.custom.yaml 中与输入法相关的节点，</p><p>变成了这样</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs YAML"><span class="hljs-attr">schema_list:</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-attr">schema:</span> <span class="hljs-string">luna_pinyin_simp</span> <span class="hljs-comment"># 朙月拼音·简化字，可以按 ctrl+` 选择临时启用正體中文</span><br> <span class="hljs-comment">#- schema: luna_pinyin_fluency  # 语句流</span><br> <span class="hljs-comment">#- schema: double_pinyin_flypy  # 小鶴雙拼</span><br> <span class="hljs-comment">#- schema: wubi_pinyin          # 五笔拼音混合輸入</span><br> <span class="hljs-comment">#- schema: wubi86               # 五笔86</span><br> <span class="hljs-comment">#- schema: luna_pinyin_tw       # 朙月拼音·臺灣正體，可以按 ctrl+` 選擇臨時啓用简体中文</span><br></code></pre></td></tr></table></figure><p>这个时候我们在 macOS 上的 Rime 就变成了能击败百分之 99 的输入法的输入法了，他还能支持导入自己做的词库，因此我们可以把其他软件的词库扒来用用</p><p>不过需要转换啦</p><h2 id="成果"><a href="#成果" class="headerlink" title="成果"></a>成果</h2><p>在完成以上捣鼓后，我们需要重新部署一下 Rime。</p><p>完成后会提示的，这一次部署速度很快，然后就 OK 啦</p><p>我们的 Rime 现在长成了这样：</p><p><img src="rime.webp"></p><p>好了，大功告成。我们拥有了反应最快的输入法！享受打字的乐趣吧！</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>捣鼓</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件替换列表</title>
+    <link href="/2020/02/21/%E8%BD%AF%E4%BB%B6%E6%9B%BF%E6%8D%A2%E5%88%97%E8%A1%A8/"/>
+    <url>/2020/02/21/%E8%BD%AF%E4%BB%B6%E6%9B%BF%E6%8D%A2%E5%88%97%E8%A1%A8/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>在这里对流氓软件进行定义：无法删除或者很难删除，对工作造成比较大的影响，很吃资源，不服从管理</p></blockquote><p>这里的流氓软件可能大多数指国内的程序，因为他们想赚钱所以利用了用户</p><a id="more"></a><p>列出大概的分类</p><ol><li>杀毒</li><li>解压</li><li>视频播放</li><li>浏览器</li><li>Office 办公类</li><li>下载器</li></ol><hr><h2 id="1-杀毒软件"><a href="#1-杀毒软件" class="headerlink" title="1.杀毒软件"></a>1.杀毒软件</h2><p>强烈推荐火绒安全，这是国内最不流氓却又不失高效的杀毒程序<br>他包含了一些很实用的工具，比如弹出窗口拦截，文件粉碎，漏洞修复等等<br>目前更新到火绒 5<br><a href="https://www.huorong.cn/">下载地址</a><br><img src="%E7%81%AB%E7%BB%925.webp" alt="火绒5"></p><h2 id="2-解压缩软件"><a href="#2-解压缩软件" class="headerlink" title="2.解压缩软件"></a>2.解压缩软件</h2><p>似乎国内大多数解压缩软件拥有极强的流氓性质，特别是 23**解压缩甚至实用了木马技术防止用户卸载<br>因此推荐开源程序 PeaZIP，或者闭源程序 Bandzip<br>不流氓，快速，方便就是他们两个了！<br>Peazip 是开源软件，不可能包含病毒以及广告<br>BandZip 是闭源软件，似乎价格在 macOS 上贵到超过一百大洋（穷苦<br>Peazip 主要是开源免费安全，BandZip 似乎比较快速？<br>从我自己来说我比较推荐 peazip，虽然不是很好用但是安全<br><a href="https://www.peazip.org/download-installer-p-windows.html">PeaZip 下载地址</a><br><a href="https://www.bandisoft.com/bandizip/">Bandzip 下载地址</a><br><img src="peazip.webp" alt="peazip"><br><img src="bandzip.webp" alt="bandzip"></p><h2 id="3-视频播放"><a href="#3-视频播放" class="headerlink" title="3.视频播放"></a>3.视频播放</h2><p>甩掉用不着的 aiqiyi 什么万能播放器吧，真正的万能播放器是他们！<br>iqiyi 什么的只配当追剧用的工具<br>VLC，一个开源非营利性组织的产物，他被内嵌到各种播放器的内部作为核心部件，也许你看到的所谓万能播放器，实际上就是 VLC。他开源，免费，快速为最大有点，资源占用极小，支持硬件解码<br>PotPlayer,一个闭源产品，他可以快速读取多个文件，支持 CUDA 加速，支持多声卡输出。不过这些似乎 VLC 都能做到？</p><p>好吧，推荐安装 VLC<br><a href="https://www.videolan.org/vlc/">VLC 下载地址</a><br><a href="https://www.videolan.org/vlc/">PotPlayer 下载地址</a><br><img src="vlc.webp" alt="vlc"><br><img src="potplayer.webp" alt="potplayer"></p><h2 id="4-浏览器"><a href="#4-浏览器" class="headerlink" title="4.浏览器"></a>4.浏览器</h2><p>国内的浏览器什么垃圾啊，能用吗？我想看啥他不给我看，我看了啥他都知道，我呸，再见！</p><p>目前世界上最强浏览器为 Chrome 和火狐（排名不分前后），chrome 为谷歌公司开发，火狐由非营利性组织 Mozilla 组织开发</p><p>火狐！火狐！火狐！如果你想要一个完全由你控制的浏览器，那么火狐永远是你的优选。大量的插件，大量的可定制化，你想让它变成什么他就是什么！它遵守你的隐私，至今没有爆出火狐窃取隐私的问题，内存占用比较小，多标签页切换极其迅速</p><p>Chrome，谷歌公司开发的浏览器，以快速，整合谷歌服务，美观闻名世界。但是由于国内众所周知的原因没办法使用谷歌服务，所以。。。以及他经常被爆出窃取用户隐私，如果你很看重隐私的话，请不要使用它。另外它内存占用比较大</p><p>第一个图是我打造以后的火狐浏览器，它拥有超强的广告抵挡能力，美观的界面，超多可选插件</p><p>第二个图是默认安装好的 Chrome，他美观简洁，但是插件很难使用和获取，内存占用超级大</p><p>不要提 MS Edge，恶心死人慢死人，虽然后面有改进但是依然脱不了垃圾本质</p><p>另外，火狐也有安卓和 iOS 版本浏览器，你能在移动设备上浏览的网页发送给桌面平台，或者桌面平台发送给移动设备，前提是都在同一个账户下</p><p>ps:这里我选择火狐开发者版本，它比较简洁</p><p>个人推荐火狐<br><a href="https://www.mozilla.org/zh-CN/firefox/developer/">火狐开发者版本下载地址</a><br><a href="https://www.google.cn/chrome/index.html">chrome 下载地址</a><br><img src="firefox.webp" alt="firefox"><br><img src="chrome.webp" alt="chrome"></p><h2 id="5-Office-办公类"><a href="#5-Office-办公类" class="headerlink" title="5.Office 办公类"></a>5.Office 办公类</h2><p>办公类，首选微软家 Office，次之如果没有广告洁癖可以选择 WPS，有的话欢迎 LibreOffice 还有 FreeOffice</p><blockquote><p>WPS:国内目前最好的免费办公套件<br>LibreOffice:世界上最好的开源免费办公套件</p></blockquote><p>LibreOffice 我用过一段时间，需要一些时间去熟悉，但是足够简洁快速安全，不过需要一些时间适应和研究<br>WPS 是国内最常用的办公套件了，应该谁都知道吧？堪比微软 Office 的实力，但是有广告。不过可以用火绒弹窗拦截掉<br>如果有广告洁癖，有一定的动手能力，欢迎使用 LibreOffice。在相当长的时间内，它都比微软 Office 强。现在已经被追赶上了<br>如果没有广告洁癖，可以考虑 WPS<br>如果有钱，请微软 Office 全家桶<br><a href="https://www.wps.cn/">WPS 下载地址</a><br><a href="https://zh-cn.libreoffice.org/download/download/">LibreOffice 下载地址</a><br><img src="wps.webp" alt="wps"><br><img src="libreoffice.webp" alt="libreoffice"></p><h2 id="6-下载器"><a href="#6-下载器" class="headerlink" title="6.下载器"></a>6.下载器</h2><p>摆脱迅雷吧！这家所谓区块链领军人物不过是广告壬而已，把它禁止启动！换到 Motrix 吧！<br>Motrix，一个开源炫酷让人下了还想下的开源下载器！支持多线程，从此以后你只需要用它来下载东西！迅雷就让它下载种子磁力链接去吧！<br><a href="https://motrix.app/zh-CN/">Motrix 下载地址</a><br><img src="motrix2.webp" alt="亮色Motrix"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>捣鼓</category>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记事</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
   
 </search>
